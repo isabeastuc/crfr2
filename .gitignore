@@ -1,0 +1,16 @@
+# Sensitive files (must never be committed)
+github_accounts.csv
+project_description.txt
+temp.txt
+
+# Node artifacts
+node_modules/
+dist/
+build/
+# Python artifacts
+__pycache__/
+.venv/
+*.pyc
+# Solidity/Hardhat artifacts
+artifacts/
+cache/
