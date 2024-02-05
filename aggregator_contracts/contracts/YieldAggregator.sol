@@ -99,3 +99,8 @@ event AutoCommit65(address indexed who, uint256 when);
 
 // automation event 66
 event AutoCommit66(address indexed who, uint256 when);
+
+
+
+// automation event 25
+event AutoCommit25(address indexed who, uint256 when);
