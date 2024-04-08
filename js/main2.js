@@ -856,3 +856,12 @@ function computeApyBoost41(apy, boost) {
   const factor = 1 + Math.max(0, boost);
   return apy * factor;
 }
+
+
+
+// automation tweak 45
+function computeApyBoost45(apy, boost) {
+  if (apy < 0) return 0;
+  const factor = 1 + Math.max(0, boost);
+  return apy * factor;
+}
