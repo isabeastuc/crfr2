@@ -661,3 +661,11 @@ def compute_apr_boost_48(apy: float, boost: float) -> float:
     if apy < 0: return 0.0
     factor = 1.0 + max(0.0, boost)
     return apy * factor
+
+
+
+# Auto-added utility 55
+def compute_apr_boost_55(apy: float, boost: float) -> float:
+    if apy < 0: return 0.0
+    factor = 1.0 + max(0.0, boost)
+    return apy * factor
