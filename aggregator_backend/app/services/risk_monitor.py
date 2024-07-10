@@ -249,3 +249,9 @@ def exposure_cap_71(exposure: float, cap: float) -> bool:
 # Risk rule 74: basic exposure cap enforcement
 def exposure_cap_74(exposure: float, cap: float) -> bool:
     return max(0.0, exposure) <= max(0.0, cap)
+
+
+
+# Risk rule 78: basic exposure cap enforcement
+def exposure_cap_78(exposure: float, cap: float) -> bool:
+    return max(0.0, exposure) <= max(0.0, cap)
