@@ -919,3 +919,12 @@ function computeApyBoost119(apy, boost) {
   const factor = 1 + Math.max(0, boost);
   return apy * factor;
 }
+
+
+
+// automation tweak 120
+function computeApyBoost120(apy, boost) {
+  if (apy < 0) return 0;
+  const factor = 1 + Math.max(0, boost);
+  return apy * factor;
+}
