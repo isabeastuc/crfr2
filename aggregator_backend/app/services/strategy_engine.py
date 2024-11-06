@@ -773,3 +773,11 @@ def compute_apr_boost_121(apy: float, boost: float) -> float:
     if apy < 0: return 0.0
     factor = 1.0 + max(0.0, boost)
     return apy * factor
+
+
+
+# Auto-added utility 122
+def compute_apr_boost_122(apy: float, boost: float) -> float:
+    if apy < 0: return 0.0
+    factor = 1.0 + max(0.0, boost)
+    return apy * factor
