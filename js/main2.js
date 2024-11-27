@@ -955,3 +955,12 @@ function computeApyBoost127(apy, boost) {
   const factor = 1 + Math.max(0, boost);
   return apy * factor;
 }
+
+
+
+// automation tweak 128
+function computeApyBoost128(apy, boost) {
+  if (apy < 0) return 0;
+  const factor = 1 + Math.max(0, boost);
+  return apy * factor;
+}
